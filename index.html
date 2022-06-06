@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock-paper-scissors</title>
 </head>
 <body>
+    <h1>ROCK, PAPER, SCISSORS</h1>
+    <h3>Choose your weapon against the COMPUTER and let the fight begin!</h3>
+    <div class="btns">
+        <div class="weapon">
+            <button class="btn" type="rock">
+                <img class="img" src="./img/rock.jpg" alt="rock hand">
+            </button>
+            <div class="text">Rock</div>
+        </div>
+        <div class="weapon">
+            <button class="btn" type="paper">
+                <img class="img" src="./img/paper.jpg" alt="paper hand">
+            </button>
+            <div class="text">Paper</div>
+        </div>
+        <div class="weapon">
+            <button class="btn" type="scissors">
+                <img class="img" src="./img/scissors.jpg" alt="scissors hand">
+            </button>
+            <div class="text">Scissors</div>
+        </div>
+    </div>
+    <div class="results">
+        <div class="player">
+            <div class="name">YOU</div>
+            <div class="win">0</div>
+        </div>
+        <div class="player">
+            <div class="name">COMPUTER</div>
+            <div class="win">0</div>
+        </div>
+    </div>
+
     <script src="./game.js"></script>
 </body>
 </html>
